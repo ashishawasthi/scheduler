@@ -7,7 +7,7 @@ class UrlHandler(webapp2.RequestHandler):
 
     def get(self):
         # [START urllib-get]
-        url = 'http://www.google.com/humans.txt'
+        url = 'http://www.google.com/humans.txt' # change this to the URL you want to call
         try:
             result = urllib2.urlopen(url)
             self.response.write(result.read())

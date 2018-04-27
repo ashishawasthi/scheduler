@@ -1,0 +1,6 @@
+cron:
+- description: "humans cron task"
+  url: /tasks/humans
+  target: scheduler
+  schedule: every 24 hours
+  #schedule: every 1 mins
